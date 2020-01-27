@@ -1,0 +1,20 @@
+{
+    "name": "prettier-twig-craft-cms",
+    "version": "0.1.0",
+    "description": "Craft CMS extension for prettier-plugin-twig-melody",
+    "main": "src",
+    "repository": "https://github.com/twbartel/prettier-twig-craft-cms",
+    "author": "Tom Bartel <thomas.bartel@trivago.com>",
+    "license": "Apache 2.0",
+    "dependencies": {
+        "prettier-plugin-twig-melody": "^0.3.5"
+    },
+    "devDependencies": {
+        "jest": "^25.1.0"
+    },
+    "jest": {
+        "projects": [
+            "<rootDir>/jest.*.config.js"
+        ]
+    }
+}
