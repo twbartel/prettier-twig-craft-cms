@@ -6,6 +6,10 @@
     "repository": "https://github.com/twbartel/prettier-twig-craft-cms",
     "author": "Tom Bartel <thomas.bartel@trivago.com>",
     "license": "Apache 2.0",
+    "scripts": {
+        "test": "jest",
+        "update-snapshots": "jest -u"
+    },
     "dependencies": {
         "prettier-plugin-twig-melody": "^0.3.5"
     },
